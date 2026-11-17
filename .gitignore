@@ -1,0 +1,21 @@
+node_modules/
+.next/
+.env*
+!.env.example
+.local-data/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.next-e2e/
+.next-production-test/
+
+# Local build outputs, audit backups and runtime credentials stay on this computer.
+.next*/
+.vercel/
+artifacts/
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+*.before
